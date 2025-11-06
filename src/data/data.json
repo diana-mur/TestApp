@@ -1,0 +1,47 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "login": "user1",
+            "password": "password",
+            "name": "Сергей"
+        },
+
+        {
+            "id": 2,
+            "login": "user2",
+            "password": "password",
+            "name": "Евгения"
+        },
+
+        {
+            "id": 3,
+            "login": "user3",
+            "password": "password",
+            "name": "Алёна"
+        }
+    ],
+    "cards": [
+        {
+            "id": 1,
+            "title": "Онлайн-прием",
+            "textImage": "Иконка сердечного ритма",
+            "image": "src\\assets\\icon cool-icon-15.svg",
+            "text": "рыба-текст"
+        },
+        {
+            "id": 2,
+            "title": "Экстренный случай",
+            "textImage": "Статоскоп",
+            "image": "src\\assets\\icon cool-icon-152.svg",
+            "text": "рыба-текст"
+        },
+        {
+            "id": 3,
+            "title": "Лечение рака",
+            "textImage": "Иконка планшета для бумаг",
+            "image": "src\\assets\\icon cool-icon-155.svg",
+            "text": "рыба-текст"
+        }
+    ]
+}

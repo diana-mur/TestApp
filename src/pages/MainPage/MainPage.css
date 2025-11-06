@@ -1,0 +1,46 @@
+.home {
+    padding: 80px 197px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.home-title {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 16.5px 0;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.home-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+    .home {
+        padding: 70px 100px;
+        gap: 11px;
+    }
+
+    .home-title {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .home {
+        padding: 37px 10px;
+        gap: 11px;
+    }
+
+    .home-title {
+        padding: 18.5px 0;
+    }
+}

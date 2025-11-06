@@ -1,0 +1,36 @@
+.profile {
+    padding: 80px 197px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.profile-title {
+    margin-top: 60px;
+}
+
+.profile-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+    .profile {
+        padding: 70px 100px;
+    }
+
+    .profile-title {
+        padding: 20px 0 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .profile {
+        padding: 57px 10px;
+    }
+
+    .profile-title {
+        padding: 18.5px 0 0;
+    }
+}

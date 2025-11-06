@@ -1,0 +1,19 @@
+.header-button {
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid #FF685B;
+    color: #FF685B;
+    padding: 6px 58px;
+}
+
+@media screen and (max-width: 992px) {
+    .header-button {
+        padding: 6px 38px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-button {
+        padding: 4px 18px;
+    }
+}
